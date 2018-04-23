@@ -22,19 +22,27 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ducbk14
 github_username:  dukn
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+#### Menu
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
 
 #### Default Attributes
 defaults:
+  -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+
+
+# Build settings
+markdown: kramdown
+#theme: minima
+plugins:
+  - jekyll-feed
 
 
 # Exclude from processing.
