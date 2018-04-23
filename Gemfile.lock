@@ -246,6 +246,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
+  jekyll-paginate
+  jekyll-sitemap
   redcarpet (= 3.3.3)
 
 BUNDLED WITH
